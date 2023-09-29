@@ -51,6 +51,7 @@ body {
     display: none;
     padding-left: 50px;
     padding-top: 35px;
+
 }
 
 
@@ -462,6 +463,9 @@ body {
 
     .nav-mopail {
         display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 
     .home .packages .all-packages {
@@ -477,6 +481,7 @@ body {
 @media (max-width: 400px) {
     .container .home {
         margin-inline: 5px;
+
     }
 
     .nav-mopail span {
