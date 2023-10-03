@@ -450,7 +450,7 @@ body {
 
     .container .home {
         margin-top: 80px;
-        margin-inline: 50px;
+        margin-inline: 25px;
         flex: 1;
     }
 
@@ -472,7 +472,8 @@ body {
 /* mopail */
 @media (max-width: 400px) {
     .container .home {
-        margin-inline: 5px;
+        margin-inline: 15px;
+
     }
 
     .nav-mopail span {
